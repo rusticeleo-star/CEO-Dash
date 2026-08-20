@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CEO Dash</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>CEO Dash</h1>
+  <p>Business Vocab Runner</p>
+
+  <div id="rankDisplay">Down Bad</div>
+
+  <div id="progressContainer">
+    <div id="progressBar"></div>
+  </div>
+
+  <button id="pauseButton">Pause</button>
+
+  <div id="gameArea">
+
+    <div class="citySide leftCity"></div>
+    <div class="citySide rightCity"></div>
+
+    <div class="laneLine laneLine1"></div>
+    <div class="laneLine laneLine2"></div>
+
+    <div id="player">
+      <img
+        id="playerImage"
+        src="downbad-character.png"
+        alt="Player"
+      >
+    </div>
+
+  </div>
+
+  <!-- START SCREEN -->
+
+  <div id="startScreen">
+    <div id="startBox">
+
+      <h2>CEO Dash</h2>
+
+      <p>
+        Run, dodge business problems, answer vocab,
+        and climb from Down Bad to Billionaire Boss.
+      </p>
+
+      <button id="startButton">
+        Start Game
+      </button>
+
+    </div>
+  </div>
+
+  <!-- QUESTION SCREEN -->
+
+  <div id="questionScreen">
+
+    <div id="questionBox">
+
+      <h2>Business Vocab</h2>
+
+      <p id="questionText"></p>
+
+      <div id="answerButtons"></div>
+
+      <p id="questionFeedback"></p>
+
+    </div>
+
+  </div>
+
+  <!-- PROMOTION POPUP -->
+
+  <div id="promotionPopup">
+
+    <div id="promotionBox">
+
+      <h2 id="promotionText">
+        PROMOTED!
+      </h2>
+
+    </div>
+
+  </div>
+
+  <!-- GRANDE EASTER EGG -->
+
+  <div id="grandePopup">
+
+    <div id="grandeBox">
+
+      <img
+        id="grandeImage"
+        src="grande.png"
+        alt="Grande"
+      >
+
+      <h2>
+        YOU'VE BEEN GRANDED
+      </h2>
+
+    </div>
+
+  </div>
+
+  <!-- WIN SCREEN -->
+
+  <div id="winScreen">
+
+    <div id="winBox">
+
+      <h2>
+        YOU'RE READY FOR BUSINESS!
+      </h2>
+
+      <p>
+        You survived debt, climbed the ranks,
+        and became the Billionaire Boss.
+      </p>
+
+      <button id="restartButton">
+        Play Again
+      </button>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
